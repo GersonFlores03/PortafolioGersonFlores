@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sahadat Portfolio Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/style2.css">
@@ -21,12 +23,12 @@
             </a>
             <ul class="nav_menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#Tecnologías">Tecnologías</a></li>
+                <li><a href="#Portafolios">Portafolios</a></li>
+                <li><a href="#Back-End">Back-End</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
             <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
             <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
@@ -43,7 +45,7 @@
                 <div class="text-1">Hola Soy</div>
                 <div class="text-2">Gerson Flores Narciso</div>
                 <div class="text-3">Y yo Soy <span class="typing"></span></div>
-                <a href="https://facebook.com/developersahadat" class="btn">Hire Me</a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="btn">Contáctame</a>
             </div>
         </div>
     </header>
@@ -51,21 +53,26 @@
 
     <!-- About Me Section Start Here -->
     <section class="about" id="about">
-        <h2 class="border_bottom">About Me</h2>
+        <h2 class="border_bottom">Sobre mí</h2>
         <div class="container about_container">
             <div class="about-img">
                 <img src="./image/YouPhoto.png" alt="about model">
             </div>
             <div class="about-text">
                 <div class="text">
-                    I am Sahadat and I'm a <span class="typing-2"></span>
+                    Soy Gerson Flores Narciso y soy <span class="typing-2"></span>
                 </div>
-                <p>I have completed my graduation in CSE from Leading University, Sylhet in 2021. Also, I am a Cisco
-                    Certified
-                    Internetwork Expert (CCIE). Technology is my passion. I always try to share my knowledge and
-                    experience
-                    because I believe that "helping others means helping yourself".</p>
-                <a href="https:facebook.com/developersahadat" class="btn">Download CV</a>
+                <p>Soy Gerson Elmer Flores Narciso, soy un apasionado por la programación, y me gusta mucho el código.
+                    Mis grandes virtudes es la perseverancia , constancia y motivación , mis valores son la
+                    responsabilidad y la confianza tambien me gusta compartir mis conocimientos con los
+                    demás.Actualmente,estoy estudiando Ingeniería de Sistemas en la Universidad Privada del Norte (UPN)
+                    cursando el 4 ciclo , además de cursar también 2 bootcamps, (Academlo y Alura Latam) , tengo un
+                    manejo de las siguientes tecnologías, tales como: HTML , CSS , React , Redux ,JavaScript , Node ,
+                    sequelize , Express , Next.js , Sass , Postgress , y en librerías como: Bootstrap , Bootstrap-React
+                    y Tailwind.</p>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/11eXGYoSSg6U3PuxdCqAAth9X7eNG-asx/view?usp=share_link"
+                    class="btn">Download CV</a>
             </div>
         </div>
     </section>
@@ -73,37 +80,28 @@
 
     <!-- My Services Section Start Here -->
     <div class="services" id="service">
-        <h2 class="border_bottom">My Services</h2>
+        <h2 class="border_bottom">Habilidades Blandas</h2>
         <div class="container services_container">
             <div class="cards">
                 <div class="card">
                     <div class="sbox">
                         <i class="fa-solid fa-code"></i>
-                        <h3>Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eveniet, est amet libero,
-                            quasi autem quae aspernatur eum accusamus corrupti iste possimus minus deserunt nam illo
-                            fugit ut? Harum, neque?</p>
-                        <a href="#">Learn More</a>
+                        <h3 class="Habil">Comunicación y escucha Activa</h3>
+                        <img src="./image/escuchar.jpg" alt="">
                     </div>
                 </div>
                 <div class="card">
                     <div class="sbox">
                         <i class="fa-solid fa-file-code"></i>
-                        <h3>PSD to HTML</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eveniet, est amet libero,
-                            quasi autem quae aspernatur eum accusamus corrupti iste possimus minus deserunt nam illo
-                            fugit ut? Harum, neque?</p>
-                        <a href="#">Learn More</a>
+                        <h3 class="Habil">Planificaion y gestión del tiempo</h3>
+                        <img src="./image/Tiempo.jpg" alt="">
                     </div>
                 </div>
                 <div class="card">
                     <div class="sbox">
                         <i class="fa-solid fa-laptop-code"></i>
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eveniet, est amet libero,
-                            quasi autem quae aspernatur eum accusamus corrupti iste possimus minus deserunt nam illo
-                            fugit ut? Harum, neque?</p>
-                        <a href="#">Learn More</a>
+                        <h3 class="Habil">Flexibilidad</h3>
+                        <img src="./image/flex.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -112,30 +110,50 @@
     <!-- My Services Section End Here -->
 
     <!-- My Skills Section Start Here -->
-
+    <h2 id="Tecnologías" class="TecnologiaText">Mis Tecnologías</h2>
+    <div class="Tecnologias">
+        <div class="MisTecnologias">
+            <img class="ImgTecnologias" src="./image/JavaScript.png" alt="">
+            <img class="ImgTecnologiasNode" src="./image/BackEnd.webp" alt="">
+            <img class="ImgTecnologias" src="./image/css.jpg" alt="">
+            <img class="ImgTecnologias" src="./image/html.png" alt="">
+            <img class="ImgTecnologias" src="./image/express.png" alt="">
+            <img class="ImgTecnologias" src="./image/React.png" alt="">
+            <img class="ImgTecnologiasSequelize" src="./image/sequelize-logo.png" alt="">
+            <img class="ImgTecnologiasSequelize" src="./image/redux.png" alt="">
+            <img class="ImgTecnologias" src="./image/sql.png" alt="">
+            <img class="ImgTecnologiasSequelize" src="./image/Taillwind.png" alt="">
+            <img class="ImgTecnologiasSequelize" src="./image/next.jpg" alt="">
+            <img class="ImgTecnologiasSass" src="./image/sass.png" alt="">
+            <img class="ImgTecnologias" src="./image/github.png" alt="">
+            <img class="ImgTecnologiasSass" src="./image/jwt.png" alt="">
+            <img class="ImgTecnologiasSass" src="./image/Boostrap.jpg" alt="">
+            <img class="ImgTecnologiasSass" src="./image/swagger.png" alt="">
+        </div>
+    </div>
     <!-- My Skills Section End Here -->
 
     <!-- My Portfolio Section Start Here -->
-    <div class="container portfolio_container" id="portfolio">
-        <h1>Mis Portafolios</h1>
-        <h2>Front-End</h2>
+    <div class="container portfolio_container" id="Portafolios">
+        <h1 class="border_bottom">Mis Portafolios</h1>
+        <hr>
+        <h2 class="border_bottom">Front-End</h2>
         <h2 class="border_bottom"></h2>
         <div class="gallery">
-            <a href="https://mellow-tulumba-8bb5e2.netlify.app"><img src="./image/Ecomerce2.jpg" alt="Portfolio 1"></a>
-            <a href="https://timely-pie-f79420.netlify.app/"><img src="./image/PokemonApi.jpg" alt="Portfolio 1"></a>
-            <a href="https://astonishing-frangipane-061971.netlify.app/"><img src="./image/Mortyimg.jpg"
+            <a target="_blank" href="https://mellow-tulumba-8bb5e2.netlify.app"><img src="./image/Ecomerce2.jpg" alt="Portfolio 1"></a>
+            <a target="_blank" href="https://timely-pie-f79420.netlify.app/"><img src="./image/PokemonApi.jpg" alt="Portfolio 1"></a>
+            <a target="_blank" href="https://astonishing-frangipane-061971.netlify.app/"><img src="./image/Mortyimg.jpg"
                     alt="Portfolio 1"></a>
-            <a href="https://stellar-paprenjak-0401d3.netlify.app"><img src="./image/Crud.jpg" alt="Portfolio 1"></a>
-            <a href="https://ephemeral-pasca-1f5082.netlify.app"><img src="./image/TiempoMundo.jpg"
+            <a target="_blank" href="https://stellar-paprenjak-0401d3.netlify.app"><img src="./image/Crud.jpg" alt="Portfolio 1"></a>
+            <a target="_blank" href="https://ephemeral-pasca-1f5082.netlify.app"><img src="./image/TiempoMundo.jpg"
                     alt="Portfolio 1"></a>
-            <a href="https://fantastic-bunny-5cd082.netlify.app"><img src="./image/Ecomerceimg.jpg"
+            <a target="_blank" href="https://fantastic-bunny-5cd082.netlify.app"><img src="./image/Ecomerceimg.jpg"
                     alt="Portfolio 1"></a>
         </div>
     </div>
     <!-- My Portfolio Section End Here -->
-
     <!-- My Courses Section Start Here -->
-    <div class="courses" id="courses">
+    <div class="courses" id="Back-End">
         <h2 class="border_bottom">
             Back-End
         </h2>
@@ -151,7 +169,7 @@
                         , Postgress y para el Back con Node.js , Express y Sequelize
                         tambien Documentado en Swagger y desplegado en
                         Render</p>
-                    <a href="https://github.com/GersonFlores03/Api-Ecommerce" class="btn">Learn More</a>
+                    <a target="_blank" href="https://github.com/GersonFlores03/Api-Ecommerce" class="btn"><i class='bx bxl-github bx-md'></i></a>
                 </div>
             </article>
 
@@ -165,7 +183,7 @@
                         tareas , donde puedes crear una tarea, editar una tarea ,
                         modificar una tarea y eliminar una tarea. El trabajo es hecho
                         con Node.js para el Back-End y React.js para el Font-End</p>
-                    <a target="_blank" href="https://github.com/GersonFlores03/TodosBack-End" class="btn">Learn More</a>
+                    <a target="_blank" href="https://github.com/GersonFlores03/TodosBack-End" class="btn"><i class='bx bxl-github bx-md'></i></a>
                 </div>
             </article>
 
@@ -175,9 +193,11 @@
                 </div>
                 <div class="course_info">
                     <h4>Api-Chat de usuarios</h4>
-                    <p>Creacion de una API para el moldeamiento de Usuarios dentro de un Chat-Global , podras crear tu
-                        propia Red Social </p>
-                    <a href="https://github.com/GersonFlores03/Chat-Api " class="btn">Learn More</a>
+                    <p>Creación de un proyecto de chatGlobal, Api aplicación para
+                        Chatear , donde puedes crear una usuarios, editar una respuestas ,
+                        modificar una usuarios y eliminar una respuestas. El trabajo esta hecho
+                        con Node.js para el Back-End y React.js para el Font-End</p>
+                    <a target="_blank" href="https://github.com/GersonFlores03/Chat-Api" class="btn"><i class='bx bxl-github bx-md'></i></a>
                 </div>
             </article>
 
@@ -186,18 +206,18 @@
     <!-- My Courses Section End Here -->
 
     <!-- FAQs Section Start Here -->
+    <h2 class="textContacto">Contáctame</h2>
     <section class="form-register">
-       <form action="https://formsubmit.co/xdhaber12@gmail.com" method="POST">
-        <h4>Formulario Registro</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">
-        <p><a href="#">¿Ya tengo Cuenta?</a></p>
+        <form action="https://formsubmit.co/xdhaber12@gmail.com" method="POST">
+            <h4>Formulario Registro</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+            <p class="Terminos">Estoy de acuerdo con <a href="#">términos y condiciones</a></p>
+            <input class="botons" type="submit" value="Registrar">
         </form>
-        </section>
+    </section>
     <!-- FAQs Section End Here -->
 
     <!-- Footer Section Start Here -->
@@ -205,23 +225,23 @@
         <div class="container footer_container">
             <div class="footer_1">
                 <a href="index.html" class="footer_logo">
-                    <h4>SAHADAT</h4>
+                    <h4>GerFlores</h4>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi nobis enim.</p>
+                <p>Desarrollador Full-Stack</p>
             </div>
 
             <div class="footer_2">
-                <h4>Permalinks</h4>
+                <h4>Links</h4>
                 <ul class="permalinks">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#courses">Portafolios</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
 
             <div class="footer_3">
-                <h4>Privacy</h4>
+                <h4>Privacidad</h4>
                 <ul class="privacy">
                     <li><a href="#">Privacy & Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
@@ -230,23 +250,22 @@
             </div>
 
             <div class="footer_4">
-                <h4 id="contact">Contact Me</h4>
+                <h4 id="contact">Contáctame</h4>
                 <div>
-                    <p>+880 1738309749</p>
-                    <p class="mail">cse.devsahadat@gmail.com</p>
+                    <p>+51 948126713</p>
+                    <p class="mail">xdhaber12@gmail.com</p>
                 </div>
                 <ul class="footer_social">
-                    <li><a href="https://facebook.com/developersahadat"> <i class="fa-brands fa-facebook-f"></i> </a>
+                    <li><a target="_blank" href="https://www.instagram.com/ger__workout/"> <i
+                                class="fa-brands fa-instagram"></i> </a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/gerson-flores-narciso-52628b256/"> <i
+                                class="fa-brands fa-linkedin"></i> </a>
                     </li>
-                    <li><a href="https://instagram.com/devsahadat"> <i class="fa-brands fa-instagram"></i> </a></li>
-                    <li><a href="https://linkedin.com/in/sahadat-husain"> <i class="fa-brands fa-linkedin"></i> </a>
-                    </li>
-                    <li><a href="https://youtube.com/nextprotipsyt"> <i class="fa-brands fa-youtube"></i> </a></li>
                 </ul>
             </div>
         </div>
         <div class="footer_copyright">
-            <small>Copyright &copy; DEVELOPER SAHADAT</small>
+            <small>Copyright &copy; Gerson Flores Narciso</small>
         </div>
     </footer>
     <script src="js/script.js"></script>
