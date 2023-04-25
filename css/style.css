@@ -604,10 +604,9 @@ header::before {
 }
 
 .gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
     background-color: var(--black);
     border-radius: 2rem;
 }
@@ -764,6 +763,7 @@ footer ul li a:hover {
 .TecnologiaText{
     text-align: center;
     margin-bottom: 30px;
+    color: var(--primary);
   }
   
   .ImgTecnologias{
