@@ -606,11 +606,8 @@ header::before {
 
 
 .gallery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 
@@ -618,7 +615,7 @@ header::before {
 
 .gallery a {
     height: 15rem;
-    width: 15rem;
+    width: 20rem;
     margin: 1.2rem;
     border-radius: 0.3rem;
     overflow: hidden;
@@ -793,7 +790,7 @@ footer ul li a:hover {
 .MisTecnologias {
     display: grid;
     padding: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
 }
 
@@ -802,8 +799,8 @@ footer ul li a:hover {
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    width: 350px;
-    height: 700px;
+    width: 50%;
+    height: 50%;
 }
 
 .Habil {
@@ -983,6 +980,9 @@ footer ul li a:hover {
     .nav_menu {
         right: 3%;
     }
+    .header_container{
+        height: 280px;
+    }
 
     .header_right .text-1 {
         font-size: 1rem;
@@ -1025,7 +1025,28 @@ footer ul li a:hover {
     }
 
     .gallery a {
-        width: 25rem;
+        width: 20rem;
+    }
+    
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .MisTecnologias {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    
+    .Tecnologias {
+        background-color: var(--primary);
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+        height: 800px;
     }
 
     .courses_container {
