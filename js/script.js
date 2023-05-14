@@ -1,4 +1,7 @@
 // Typing Script JS Library
+
+
+
  new Typed(".typing",{
     strings: [ "Desarrollador Web" , "Full-Stack"],
     typeSpeed: 80,
