@@ -212,6 +212,11 @@ img {
     background-color: transparent;
     border-color: var(--primary);
 }
+.textBoton{
+    text-align: center;
+    position: relative;
+    left: 42%;
+}
 
 .border_bottom {
     text-align: center;
@@ -848,8 +853,12 @@ footer ul li a:hover {
 }
 
 .MisTecnologias img:hover{
-    transform: scale(1.2);
+    transition: transform 300ms;
+    transform: rotate(360deg);
 }
+
+
+
 
 
 .Tecnologias {
@@ -1030,14 +1039,21 @@ footer ul li a:hover {
 }
 
 /* ========MEDIA QUERIES (MOBILE)======== */
-@media screen and (max-width:765px) {
+@media screen and (max-width:768px) {
     .container {
         width: var(--container-width-sm);
+    }
+
+    .textBoton{
+        text-align: center;
+        position: relative;
+        left: 23%;
     }
 
     .Particles{
         display: none;
     }
+
 
     .nav_menu {
         right: 3%;
@@ -1101,6 +1117,8 @@ footer ul li a:hover {
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
+
+   
     
     .Tecnologias {
         background-color: var(--primary);
@@ -1119,6 +1137,8 @@ footer ul li a:hover {
     .courses_container .course {
         margin-bottom: 1rem;
     }
+
+    border_bottom
 
     .footer_container {
         grid-template-columns: 1fr;
